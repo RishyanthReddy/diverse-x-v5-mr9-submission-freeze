@@ -1,6 +1,6 @@
 # DIVERSE-X V5-MR9D TODO
 
-Status: `MR9D_SUBMISSION_FREEZE_READY_TO_PUBLISH`
+Status: `MR9D_SUBMISSION_FREEZE_COMPLETE`
 Date: 2026-05-19
 
 - [x] Confirm folder is not yet a git repo.
@@ -11,10 +11,10 @@ Date: 2026-05-19
 - [x] Generate freeze package and archive.
 - [x] Validate freeze artifacts.
 - [x] Initialize git repository.
-- [ ] Commit curated freeze package.
+- [x] Commit curated freeze package.
 - [x] Create public GitHub repository.
-- [ ] Push public GitHub repository.
-- [ ] Mark MR9D complete after push verification.
+- [x] Push public GitHub repository.
+- [x] Mark MR9D complete after push verification.
 
 ## Boundary Checklist
 

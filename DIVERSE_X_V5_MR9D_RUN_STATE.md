@@ -1,6 +1,6 @@
 # DIVERSE-X V5-MR9D Run State
 
-Status: `MR9D_VALIDATED_READY_TO_COMMIT_AND_PUSH`
+Status: `MR9D_SUBMISSION_FREEZE_COMPLETE`
 Date: 2026-05-19
 
 ## Target
@@ -24,7 +24,9 @@ Repository URL:
 - Freeze archive SHA256:
   `881604ec892127986e9af0f0e8504367990437b8bb7db76d61d8fa5c0e666e9f`
 - Freeze validation: `PASSED`
-- GitHub repository: created, public, empty before first push
+- Freeze commit: `3faae8e1e78b69122017a686a148da57c7a6a170`
+- GitHub repository: created and pushed to public `main`
+- Remote verification: `origin/main` resolved to the freeze commit after push
 
 ## Completed Commands
 
@@ -39,10 +41,14 @@ Then validate:
 .\scripts\validate_diversex_v5_mr9d.ps1
 ```
 
-## Remaining Commands
-
 ```powershell
 git commit -m "Freeze DIVERSE-X V5 MR9D submission package"
 git remote add origin https://github.com/RishyanthReddy/diverse-x-v5-mr9-submission-freeze.git
 git push -u origin main
 ```
+
+## Final Boundary
+
+MR9D changed packaging, reproducibility, and publication state only. It did not
+rerun outcomes, retune DIVERSE-X, or change the locked MR8C/MR9 scientific
+claims.
