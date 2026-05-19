@@ -1,0 +1,6 @@
+claim,status,evidence,notes
+mr7_locked_final_external_success,BLOCKED,MR7_LOCKED_FINAL_EXTERNAL_NO_GO,MR7 remains consumed no-go evidence.
+mr8c_audit_primary_external_support,SUPPORTED,audit_auc_delta=0.015094,Primary MR8C endpoint.
+mr8c_q1_supporting_external_evidence,SUPPORTED,MR8C_FINAL_EXTERNAL_PASS_Q1_SUPPORT,Requires audit primary pass and no severe secondary acquisition collapse.
+acquisition_dominates_scaffold_quota,SUPPORTED,mean_delta=0.003043,Secondary endpoint only.
+post_hoc_retuning,BLOCKED,post_hoc_retuning_false,No post-hoc retuning allowed or recorded.

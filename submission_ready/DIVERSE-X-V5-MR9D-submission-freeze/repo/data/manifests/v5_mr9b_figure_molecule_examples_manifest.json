@@ -1,0 +1,39 @@
+{
+  "created_at_utc": "2026-05-19T18:14:25.101304+00:00",
+  "elapsed_seconds": 113.70426,
+  "gate": {
+    "analysis_type": "post_MR8C_illustrative_exemplar_extraction",
+    "attempted_task_count": 13,
+    "candidate_pool_rows": 2537,
+    "diversex_retuned": false,
+    "final_labels_used_for_illustrative_selection": true,
+    "final_labels_used_for_ranking": false,
+    "gate_reason": "illustrative_hero_villain_examples_extracted",
+    "gate_status": "MR9B_ILLUSTRATIVE_EXAMPLES_EXTRACTED",
+    "hero_count": 3,
+    "mr8c_gate_changed": false,
+    "new_claim_gate": false,
+    "valid_task_count": 13,
+    "villain_count": 3
+  },
+  "locks": {
+    "analysis_type": "post_MR8C_illustrative_exemplar_extraction",
+    "diversex_retuned": false,
+    "final_labels_used_for_illustrative_selection": true,
+    "final_labels_used_for_ranking": false,
+    "modal_gpu_spend": false,
+    "mr8c_gate_changed": false,
+    "mr8c_recomputed_as_gate": false,
+    "new_claim_gate": false,
+    "post_hoc_retuning": false,
+    "selection_role": "figure_examples_only"
+  },
+  "outputs": {
+    "candidate_pool": "reports\\tables\\v5_mr9b_candidate_audit_pool.csv",
+    "examples": "reports\\tables\\v5_mr9b_figure_molecule_examples.csv",
+    "figure_dir": "reports\\figures\\mr9b_molecule_examples",
+    "report": "reports\\runs\\v5_mr9b_figure_molecule_examples.md",
+    "task_status": "reports\\tables\\v5_mr9b_task_status.csv"
+  },
+  "status": "MR9B_ILLUSTRATIVE_EXAMPLES_EXTRACTED"
+}

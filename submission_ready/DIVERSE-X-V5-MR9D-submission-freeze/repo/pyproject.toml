@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diversex"
+version = "0.0.0"
+description = "Scaffold-aware post-hoc reranking for virtual screening candidate lists."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "DIVERSE-X contributors" }
+]
+keywords = [
+  "cheminformatics",
+  "virtual-screening",
+  "reranking",
+  "scaffold-diversity"
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Chemistry"
+]
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pyyaml>=6.0",
+  "requests>=2.31",
+  "scikit-learn>=1.4",
+  "scipy>=1.12",
+  "tqdm>=4.66"
+]
+
+[project.optional-dependencies]
+chem = [
+  "rdkit>=2023.9"
+]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.4"
+]
+data = [
+  "pyarrow>=15.0"
+]
+
+[project.urls]
+Homepage = "https://linear.app/rishyanth/project/diverse-x-56cb90f26c9e"
+
+[project.scripts]
+diversex = "diversex.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = []

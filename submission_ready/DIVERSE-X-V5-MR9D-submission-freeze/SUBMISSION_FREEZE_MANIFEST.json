@@ -1,0 +1,37 @@
+{
+  "archive": "DIVERSE_X_V5_MR9D_SUBMISSION_FREEZE.zip",
+  "archive_sha256": "881604ec892127986e9af0f0e8504367990437b8bb7db76d61d8fa5c0e666e9f",
+  "created_at_utc": "2026-05-19T18:27:06.108554+00:00",
+  "file_count": 67,
+  "freeze_name": "DIVERSE-X-V5-MR9D-submission-freeze",
+  "gates": {
+    "mr8c": "MR8C_FINAL_EXTERNAL_PASS_Q1_SUPPORT",
+    "mr9a": "MR9A_TUNED_BASELINE_FAIRNESS_CLOSED",
+    "mr9b": "MR9B_ILLUSTRATIVE_EXAMPLES_EXTRACTED",
+    "mr9c": "MR9C_CONFIG_APPENDIX_COMPLETE",
+    "mr9d": "MR9D_SUBMISSION_FREEZE_COMPLETE"
+  },
+  "locks": {
+    "diversex_retuned": false,
+    "github_public_repo_target": "RishyanthReddy/diverse-x-v5-mr9-submission-freeze",
+    "mr8c_gate_changed": false,
+    "new_outcome_evaluations_run": false
+  },
+  "outputs": {
+    "checksums": "submission_ready\\DIVERSE-X-V5-MR9D-submission-freeze\\CHECKSUMS_SHA256.txt",
+    "file_manifest": "submission_ready\\DIVERSE-X-V5-MR9D-submission-freeze\\FILE_MANIFEST.csv",
+    "freeze_dir": "submission_ready\\DIVERSE-X-V5-MR9D-submission-freeze",
+    "repo_report": "repo\\reports\\runs\\v5_mr9d_submission_freeze_report.md",
+    "report": "DIVERSE_X_V5_MR9D_SUBMISSION_FREEZE_REPORT.md"
+  },
+  "role_counts": {
+    "artifact": 10,
+    "code": 5,
+    "environment": 3,
+    "figure_asset": 6,
+    "manifest": 4,
+    "report_or_document": 19,
+    "result_table": 20
+  },
+  "status": "MR9D_SUBMISSION_FREEZE_COMPLETE"
+}

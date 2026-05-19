@@ -1,0 +1,96 @@
+{
+  "created_at_utc": "2026-05-19T16:58:19.833787+00:00",
+  "elapsed_seconds": 96.852715,
+  "final_tasks": [
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "hERG"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "AMES"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "DILI"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "hERG_Karim"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "ClinTox"
+    },
+    {
+      "loader": "Tox",
+      "priority": "reserve",
+      "task_name": "Skin Reaction"
+    },
+    {
+      "loader": "Tox",
+      "priority": "reserve",
+      "task_name": "Carcinogens_Lagunin"
+    },
+    {
+      "loader": "ADME",
+      "priority": "core",
+      "task_name": "CYP2C19_Veith"
+    },
+    {
+      "loader": "ADME",
+      "priority": "core",
+      "task_name": "CYP1A2_Veith"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "Bioavailability_Ma"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "CYP2C9_Substrate_CarbonMangels"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "CYP2D6_Substrate_CarbonMangels"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "CYP3A4_Substrate_CarbonMangels"
+    }
+  ],
+  "locks": {
+    "final_labels_used_for_metrics": true,
+    "final_labels_used_for_ranking": false,
+    "modal_gpu_spend": false,
+    "mr7_no_go_disclosed": true,
+    "mr7_rerun": false,
+    "mr8b_protocol_used": true,
+    "mr8c_final_external_labels_accessed": true,
+    "post_hoc_retuning": false,
+    "post_hoc_task_exclusion": false,
+    "task_inclusion_changed_after_outcomes": false
+  },
+  "mr7_status_preserved": "MR7_LOCKED_FINAL_EXTERNAL_NO_GO",
+  "outputs": {
+    "claim_boundary": "reports\\tables\\v5_mr8c_claim_boundary.csv",
+    "completion_audit": "reports\\runs\\v5_mr8c_completion_audit.md",
+    "gate": "reports\\tables\\v5_mr8c_final_external_gate.csv",
+    "metrics": "reports\\tables\\v5_mr8c_final_external_metrics.csv",
+    "rejection_curve": "reports\\tables\\v5_mr8c_final_external_rejection_curve.csv",
+    "rejection_summary": "reports\\tables\\v5_mr8c_final_external_rejection_summary.csv",
+    "report": "reports\\runs\\v5_mr8c_final_external_report.md",
+    "summary": "reports\\tables\\v5_mr8c_final_external_summary.csv",
+    "task_status": "reports\\tables\\v5_mr8c_final_external_task_status.csv"
+  },
+  "status": "MR8C_FINAL_EXTERNAL_PASS_Q1_SUPPORT"
+}

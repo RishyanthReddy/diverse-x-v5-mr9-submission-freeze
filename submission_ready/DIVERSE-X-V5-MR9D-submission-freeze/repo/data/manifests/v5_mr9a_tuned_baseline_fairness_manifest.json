@@ -1,0 +1,113 @@
+{
+  "created_at_utc": "2026-05-19T17:54:10.480360+00:00",
+  "elapsed_seconds": 719.719547,
+  "final_tasks": [
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "hERG"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "AMES"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "DILI"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "hERG_Karim"
+    },
+    {
+      "loader": "Tox",
+      "priority": "core",
+      "task_name": "ClinTox"
+    },
+    {
+      "loader": "Tox",
+      "priority": "reserve",
+      "task_name": "Skin Reaction"
+    },
+    {
+      "loader": "Tox",
+      "priority": "reserve",
+      "task_name": "Carcinogens_Lagunin"
+    },
+    {
+      "loader": "ADME",
+      "priority": "core",
+      "task_name": "CYP2C19_Veith"
+    },
+    {
+      "loader": "ADME",
+      "priority": "core",
+      "task_name": "CYP1A2_Veith"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "Bioavailability_Ma"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "CYP2C9_Substrate_CarbonMangels"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "CYP2D6_Substrate_CarbonMangels"
+    },
+    {
+      "loader": "ADME",
+      "priority": "reserve",
+      "task_name": "CYP3A4_Substrate_CarbonMangels"
+    }
+  ],
+  "gate": {
+    "analysis_type": "post_MR8C_supplemental_baseline_fairness",
+    "attempted_task_count": 13,
+    "checks_json": "{\"all_mr8c_tasks_attempted\": true, \"all_mr8c_tasks_valid\": true, \"diversex_not_retuned\": true, \"final_labels_not_used_for_tuning\": true, \"hgb_20_configs_per_valid_task\": true, \"mr8c_gate_not_changed\": true, \"rf_20_configs_per_valid_task\": true, \"supplemental_labeling_present\": true}",
+    "diversex_retuned": false,
+    "final_labels_used_for_hyperparameter_selection": false,
+    "final_labels_used_for_supplemental_metrics": true,
+    "gate_reason": "post_mr8c_supplemental_tuned_baseline_matrix_complete",
+    "gate_status": "MR9A_TUNED_BASELINE_FAIRNESS_CLOSED",
+    "hgb_trial_count_per_valid_task": 20,
+    "mean_method_count": 12,
+    "minimum_trial_budget_per_family": 20,
+    "mr8c_gate_changed": false,
+    "mr8c_gate_status_preserved": "MR8C_FINAL_EXTERNAL_PASS_Q1_SUPPORT",
+    "primary_comparator": "tuned_rf_scaffold_quota",
+    "rf_trial_count_per_valid_task": 20,
+    "severe_baseline_method_mean_losses_below_minus_0_05": 1,
+    "valid_task_count": 13
+  },
+  "locks": {
+    "analysis_type": "post_MR8C_supplemental_baseline_fairness",
+    "diversex_retuned": false,
+    "final_labels_used_for_hyperparameter_selection": false,
+    "final_labels_used_for_ranking": false,
+    "final_labels_used_for_supplemental_metrics": true,
+    "modal_gpu_spend": false,
+    "mr8c_claim_boundary_changed": false,
+    "mr8c_gate_changed": false,
+    "post_hoc_retuning": false,
+    "test_split_role": "supplemental_metric_table_only",
+    "tuning_split": "train_valid_only"
+  },
+  "outputs": {
+    "config": "reports\\tables\\v5_mr9a_tuned_baseline_config.csv",
+    "gate": "reports\\tables\\v5_mr9a_tuned_baseline_fairness_gate.csv",
+    "metrics": "reports\\tables\\v5_mr9a_tuned_baseline_fairness_metrics.csv",
+    "reference_comparison": "reports\\tables\\v5_mr9a_mr8c_reference_comparison.csv",
+    "report": "reports\\runs\\v5_mr9a_tuned_baseline_fairness_report.md",
+    "summary": "reports\\tables\\v5_mr9a_tuned_baseline_fairness_summary.csv",
+    "task_status": "reports\\tables\\v5_mr9a_tuned_baseline_task_status.csv"
+  },
+  "status": "MR9A_TUNED_BASELINE_FAIRNESS_CLOSED"
+}

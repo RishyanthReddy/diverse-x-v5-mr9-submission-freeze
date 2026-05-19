@@ -1,0 +1,27 @@
+{
+  "analysis_type": "supplement_ready_configuration_appendix",
+  "counts": {
+    "failed_locks": 0,
+    "grid_family_rows": 2,
+    "lock_rows": 8,
+    "method_config_rows": 22,
+    "selected_config_rows": 26
+  },
+  "created_at_utc": "2026-05-19T18:03:52.678038+00:00",
+  "locks": {
+    "diversex_retuned": false,
+    "final_labels_used_for_hyperparameter_selection": false,
+    "mr8c_gate_changed": false,
+    "mr9a_gate_changed": false,
+    "new_outcome_evaluations_run": false
+  },
+  "no_new_outcome_evaluations": true,
+  "outputs": {
+    "method_config_appendix": "reports\\tables\\v5_mr9c_method_config_appendix.csv",
+    "report": "reports\\runs\\v5_mr9c_config_appendix.md",
+    "reproducibility_locks": "reports\\tables\\v5_mr9c_reproducibility_locks.csv",
+    "selected_baseline_configs": "reports\\tables\\v5_mr9c_selected_baseline_configs.csv",
+    "tuning_grid_summary": "reports\\tables\\v5_mr9c_tuning_grid_summary.csv"
+  },
+  "status": "MR9C_CONFIG_APPENDIX_COMPLETE"
+}
